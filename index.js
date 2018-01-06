@@ -20,3 +20,8 @@ function appendKitten(name){
   a = [...kittens];
   return a.push(name);
 }
+
+function prependKitten(name){
+  a = [...kittens];
+  return a.unshift(name);
+}
